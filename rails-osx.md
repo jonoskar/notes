@@ -10,12 +10,14 @@ Do not install gem documentation
 ## Starting a new Rails app
 
 Create a folder for the app
+
 `
 $ mkdir newapp
 $ cd newapp
 `
 
 Assuming RVM is used for ruby and gem version management
+
 `
 $ rvm use ruby-2.2.2@newapp --ruby-version --create
 `
@@ -23,6 +25,7 @@ $ rvm use ruby-2.2.2@newapp --ruby-version --create
 The `--ruby-version` option creates .ruby-version and .ruby-gemset so RVM loads correct version of rails and gemset.
 
 Install latest version of Rails
+
 `
 $ gem install rails
 `
